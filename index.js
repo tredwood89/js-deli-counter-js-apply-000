@@ -35,7 +35,7 @@ or katzDeliLine.length>0. the for loop has to go in the if statement to run prop
      var customer = katzDeliLine[i];
      order.push ((i+1) + ". " + customer);
      /* push the code for "1. name" into an empty array so that we can access it as a whole
-     in the return. now the array order is consist of "1. steven", "2, maria", "3. becky" ...*/
+     in the return. now the array order  consist of "1. steven", "2, maria", "3. becky" ...*/
 
    } return "The line is currently: " + order.join(', ');
    /*.join combines the elements of the order array seperated by a ','. makes the function Pass
